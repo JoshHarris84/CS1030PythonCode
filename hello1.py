@@ -3,7 +3,7 @@
 
 # input() shows a prompt, waits for the user to type something, and
 # returns what they typed as a string (text).
-name = input("What is your name? ")
+name = input("user name? ")
 
 # input() always returns a string, so int() converts the text into a
 # whole number. We need a number to do math with it later.
