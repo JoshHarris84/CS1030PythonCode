@@ -4,5 +4,5 @@ valid_pin = True
 
 if card_vaild: 
     print("Access card accepted")
-if card_invalid:
-    print("Invalid access card")
+if valid_pin:
+    print("Access granted")
