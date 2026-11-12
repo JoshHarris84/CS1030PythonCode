@@ -1,0 +1,16 @@
+import random
+
+chars = 'abcdefghijklmnABCDENOPQRWXYZ!@£$?012345'
+
+number = input('number of passwords?')
+number = int(number)
+
+length = input('password length?')
+length = int(length)
+
+for currentPassword in range(number):
+    password = ''
+
+    for currentChar in range(length):
+        password += random.choice(chars)
+    print(password)
